@@ -14,16 +14,19 @@
        FD CLIENTE.
        01 REG-CLIENTE.
            03 COD-CLIENTE              PIC 9(03).
-           03 FILLER                   PIC X(01) VALUE SPACE.
-           03 NOM-CLIENTE              PIC X(20) VALUE SPACES.
-           03 FILLER                   PIC X(01) VALUE SPACE.
-           03 TEL-CLIENTE              PIC X(09) VALUE SPACES.
-           03 FILLER                   PIC X(01) VALUE SPACE.
+           03 FILLER                   PIC X(01).
+           03 NOM-CLIENTE              PIC X(20).
+           03 FILLER                   PIC X(01).
+           03 TEL-CLIENTE              PIC X(09).
+           03 FILLER                   PIC X(02).
 
        WORKING-STORAGE SECTION.
        77 WS-FS                        PIC 9(02).
 
        PROCEDURE DIVISION.
+           
+           MOVE SPACES TO REG-CLIENTE.
+
            display "-------- CADASTRO DE CLIENTES ------------"
            SET WS-FS                   TO 0.
 
