@@ -2,7 +2,7 @@
 
 
 
-Projetos Básicos.
+-------------------------------- Projetos Básicos. --------------------------------------
 
 
 Calculadora Simples:
@@ -19,7 +19,7 @@ Crie um jogo onde o usuário deve adivinhar um número gerado aleatoriamente pel
 
 
 
-Projetos Intermediários
+-------------------------------------- Projetos Intermediários ---------------------------------------
 
 
 
@@ -39,7 +39,7 @@ Desenvolva um sistema que calcule parcelas de empréstimos com base em diferente
 
 
 
-Projetos Avançados
+------------------------------------------ Projetos Avançados ----------------------------------------------------
 
 
 
