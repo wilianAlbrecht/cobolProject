@@ -6,7 +6,7 @@
 
 
 Calculadora Simples:
-Crie um programa que permita ao usuário realizar operações matemáticas básicas (adição, subtração, multiplicação e divisão).
+Crie um programa que permita ao usuário realizar operações matemáticas básicas (adição, subtração, multiplicação e divisão). (COMPLETED)
 
 Gerenciador de Contatos:
 Desenvolva um sistema simples para armazenar, listar, editar e excluir contatos. Utilize arquivos para armazenar os dados.
